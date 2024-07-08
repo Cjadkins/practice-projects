@@ -1,6 +1,7 @@
-"""
+'''
 Tic Tac Toe game vs. a random number generator
-"""
+Cort Adkins - 2024
+'''
 
 import random
 
