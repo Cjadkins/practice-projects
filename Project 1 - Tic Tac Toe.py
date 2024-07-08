@@ -41,6 +41,11 @@ def display_game(board):
 
 
 def game_on_choice():
+
+    '''
+    Checks if user wants to play again.
+    '''
+
     game_on = False
     game_choice = ""
     while game_choice not in ["Y", "N"]:
@@ -53,6 +58,10 @@ def game_on_choice():
 
 
 def place_marker(board, marker_choice, position):
+    '''
+    Place either 'X' or 'O' on the game board.
+    '''
+
     game_complete = False
     print("\n" * 50)
     board[position] = marker_choice
@@ -60,6 +69,10 @@ def place_marker(board, marker_choice, position):
 
 
 def win_condition(board, marker):
+    '''
+    Check if game has been won
+    '''
+
     win_check = False
     if board[1] == board[2] == board[3] == marker:
         win_check = True
@@ -83,6 +96,10 @@ def win_condition(board, marker):
 
 
 def who_first():
+    '''
+    Pick a random player to go first
+    '''
+
     player1 = bool(random.getrandbits(1))
     if player1 == True:
         player2 = False
