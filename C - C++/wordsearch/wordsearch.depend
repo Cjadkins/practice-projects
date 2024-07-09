@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1442805848 source:d:\documents\c.c++\wordsearch\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

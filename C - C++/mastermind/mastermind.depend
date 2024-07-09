@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1444016530 source:d:\documents\c.c++\mastermind\main.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
